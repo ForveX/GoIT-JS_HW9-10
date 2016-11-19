@@ -62,13 +62,14 @@ nav li li:last-child a {
 /* hide sub menu links */
 ul.sub-menu {
     display:none;
+		z-index: 3;
 }
 
 /* show arrows for dropdowns */
 nav li.dropdown > a {
     background-image:url('../img/arrow-down.png');
-    background-position:right 20px;
-    background-repeat:no-repeat;
+    background-position: right 20px;
+    background-repeat: no-repeat;
 }
 
 nav li li.dropdown > a {
@@ -202,6 +203,11 @@ nav li li.dropdown > a {
 
 h1, p {
     text-align: center;
+}
+
+.breed-select {
+	margin: 20px auto;
+	width: 300px;
 }
 
 form {
