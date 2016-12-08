@@ -72,7 +72,7 @@ div.fancy-select ul.options {
     left: 173px;
     visibility: hidden;
     opacity: 0;
-    z-index: 0;
+    z-index: 2;
     max-height: 200px;
     overflow: auto;
     background: #62C8BF;
